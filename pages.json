@@ -1,0 +1,253 @@
+{
+
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "美食",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/plaza/plaza",
+			"style" : 
+			{
+				"navigationBarTitleText" : "广场",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/create/create",
+			"style" : 
+			{
+				"navigationBarTitleText" : "创新角",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/map/map",
+			"style" : 
+			{
+				"navigationBarTitleText" : "地图",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/my/my",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我的",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/search/search",
+			"style" : 
+			{
+				"navigationBarTitleText" : "搜索"
+				
+			}
+		},
+		{
+			"path" : "pages/building/building",
+			"style" : 
+			{
+				"navigationBarTitleText" : "位置"
+				
+			}
+		},
+		{
+			"path": "pages/restaurant/restaurant",
+			    "style": {
+			        "navigationBarTitleText": "餐厅"
+			    }
+		},
+		{
+			"path" : "pages/investion/investion",
+			"style" : 
+			{
+				"navigationBarTitleText" : "邀约"
+			}
+		},
+		{
+			"path" : "pages/take-part-in/take-part-in",
+			"style" : 
+			{
+				"navigationBarTitleText" : "报名"
+			}
+		},
+		{
+			"path" : "pages/buy/buy",
+			"style" : 
+			{
+				"navigationBarTitleText" : "团购"
+			}
+		},
+		{
+			"path" : "pages/buysure/buysure",
+			"style" : 
+			{
+				"navigationBarTitleText" : "确认订单"
+			}
+		},
+		{
+			"path" : "pages/runner/runner",
+			"style" : 
+			{
+				"navigationBarTitleText" : "跑腿"
+			}
+		},
+		{
+			"path" : "pages/dish/dish",
+			"style" : 
+			{
+				"navigationBarTitleText" : "菜品"
+			}
+		},
+		{
+			"path" : "pages/gorun/gorun",
+			"style" : 
+			{
+				"navigationBarTitleText" : "发起跑腿"
+			}
+		},
+		{
+			"path" : "pages/login/login",
+			"style" : 
+			{
+				"navigationBarTitleText" : "登录"
+			}
+		},
+		{
+			"path" : "pages/user-protocol/user-protocol",
+			"style" : 
+			{
+				"navigationBarTitleText": "用户协议",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path" : "pages/user-contract/user-contract",
+			"style" : 
+			{
+				"navigationBarTitleText" : "用户协议"
+			}
+		},
+		{
+			"path" : "pages/complete-info/complete-info",
+			"style" : 
+			{
+				"navigationBarTitleText" : "完善信息"
+			}
+		},
+		{
+			"path" : "pages/selectBuilding/selectBuilding",
+			"style" : 
+			{
+				"navigationBarTitleText" : "选择建筑"
+			}
+		},
+		{
+			"path" : "pages/selectMerchant/selectMerchant",
+			"style" : 
+			{
+				"navigationBarTitleText" : "选择商家"
+			}
+		},
+		{
+			"path" : "pages/my-running/my-running",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我的跑腿"
+			}
+		},
+		{
+			"path" : "pages/my-running-detail/my-running-detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "详细跑腿"
+			}
+		},
+		{
+			"path" : "pages/bind-school/bind-school",
+			"style" : 
+			{
+				"navigationBarTitleText" : "绑定学校"
+			}
+		},
+		{
+			"path" : "pages/my-dates/my-dates",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我的邀约"
+			}
+		},
+		{
+			"path" : "pages/join-date-detail/join-date-detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "邀约细节"
+			}
+		},
+		{
+			"path" : "pages/sponsor-date-detail/sponsor-date-detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "邀约详情"
+			}
+		},
+		{
+			"path" : "pages/orders/orders",
+			"style" : 
+			{
+				"navigationBarTitleText" : "订单"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"list": [
+			{
+				"text": "美食",
+				"pagePath": "pages/index/index",
+				"iconPath":"/static/pic9.jpg",
+				"selectedIconPath": "/static/pic9.jpg"
+				
+				
+			},
+			{
+				"text": "广场",
+				"pagePath": "pages/plaza/plaza",
+				"iconPath": "/static/pic9.jpg",
+				"selectedIconPath": "/static/pic9.jpg"
+			},
+			{
+				"text": "创新角",
+				"pagePath": "pages/create/create",
+				"iconPath": "/static/pic9.jpg",
+				"selectedIconPath": "/static/pic9.jpg"
+			},
+			{
+				"text": "地图",
+				"pagePath": "pages/map/map",
+				"iconPath": "/static/pic9.jpg",
+				"selectedIconPath": "/static/pic9.jpg"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/my/my",
+				"iconPath": "/static/pic9.jpg",
+				"selectedIconPath": "/static/pic9.jpg"
+			}
+			
+		]
+	},
+
+	"uniIdRouter": {}
+}
+
